@@ -12,7 +12,7 @@ class ArticleBlog(models.Model):
     slug = models.SlugField()
     plublication = models.BooleanField(default=False)
     date = models.DateField(blank=True, null=True)
-    content =models.TextField()
+    content = models.TextField()
     description = models.TextField()
 
 class ArticleMedian(models.Model):
